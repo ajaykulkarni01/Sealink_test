@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Sealink test</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Internet Explorer HTML5 enabling code: -->
+
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        
+        <style type="text/css">
+        .clear {
+          zoom: 1;
+          display: block;
+        }
+        </style>
+        
+        <![endif]-->
+
+</head>
+
+<body>
+
+    <section id="page">
+        <!-- Defining the #page section with the section tag -->
+
+        <header>
+            <!-- Defining the header section of the page with the appropriate tag -->
+
+            <h1>Heading</h1>
+
+            <div class="line"></div>
+            <!-- Dividing line -->
+
+            <nav class="clear">
+                <ul>
+                    <li><a href="#article1">Paragraph</a></li>
+                    <li><a href="#table1">Table</a></li>
+                    <li><a href="#image1">Image</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section id="articles">
+            <!-- A new section with the articles -->
+
+            <article id="article1">
+                <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+
+                <div class="articleBody clear">
+                    <p> HTML 4.0 is becoming the standard. As of the writing of this tutorial, Microsoft Explorer version 5.0 is out with full HTML 4.0 support. <span class="link green">Netscape Navigator 5.0</span> is not far behind, and soon the commands below will start to become mainstream. </p>
+                    <p> Here's a quick look at how HTML 4.01 affects tables. You are already familiar with some of the tags and attributes. For example, <span class="link blue">BORDERCOLOR has been</span> in use for a while as a proprietary Internet Explorer tag. It has just now been written into the HTML 4.01 code. </p>
+                    <p> I have offered as many examples as possible. Many will simply not work because you don't yet have the browser version that supports it. Don't worry, neither did I when <span class="link blue">I wrote this tutorial.</span> Hopefully you'll be able to visit this tutorial in the future to test what your new browser will and will not do. I am only going to hit the tags and attributes new through HTML 4.01 in this tutorial. If you'd like to get into the basics of table creation, start with my table tutorials. </p>
+                </div>
+
+                <table id="table1">
+                    <thead>
+                        <tr class="thead_base thead_hover">
+                            <th class="font-bold">Heading 1</th>
+                            <th class="font-normal">Heading 2</th>
+                            <th class="font-normal font-right">Heading 3</th>
+                        </tr>
+                    </thead>
+                    <tr class="tr1">
+                        <td>Cell Data</td>
+                        <td>Cell Data</td>
+                        <td class="font-right">Cell Data</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>Cell Data</td>
+                        <td>Cell Data</td>
+                        <td class="font-right">Cell Data</td>
+                    </tr>
+                    <tr class="tr3">
+                        <td>Cell Data</td>
+                        <td>Cell Data</td>
+                        <td class="font-right">Cell Data</td>
+                    </tr>
+                </table>
+
+                <figure id="image1">
+                    <img src="http://stylonica.com/wp-content/uploads/2014/03/cats-16140154-1920-1080.jpg" width="500" height="281" alt="missing image" /></a>
+                </figure>
+
+            </article>
+
+        </section>
+        <footer>
+            <!-- Marking the footer section -->
+
+            <a href="#page" class="up">Go UP</a>
+
+        </footer>
+
+    </section>
+    <!-- Closing the #page section -->
+
+    <!-- JavaScript Includes -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script src="jquery.scrollTo-min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
